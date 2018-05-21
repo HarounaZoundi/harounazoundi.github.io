@@ -1,0 +1,108 @@
+/*  box-shadow: 6px 11px 35px 8px rgba(67,22,94,1);  */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	 font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background: #f4f4eb;
+	padding: 0px;
+}
+.img{
+	width: 80%;
+}
+.content-wrap {
+	 width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+     text-align: center;
+}
+/* header */
+header{
+	position: relative;
+	margin: 0;
+}
+.link{
+	 width: 100%;
+	 background: #f4f4eb;
+	 text-align: center;
+	 position: fixed; 
+	 top: 0;
+	 box-shadow: 9px 4px 5px 0px rgba(206,223,235,1);
+}
+.link a{
+	background: #808080;
+	color: #ffffff;
+	border: 1px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 5px; 
+    font-size: 70%;
+    margin: 0px;
+}
+.link a:hover{
+	background: #dbdbdb;
+	color: black;
+}
+.profile-id{
+	padding-top: 50px;
+}
+.profile-id img{
+	width: 80%;
+	border-radius: 45%;
+	padding: 15px;
+}
+
+.profile-name{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 90%;
+   
+}
+.profile-id:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* main styling */
+main{
+	padding: 0;
+}
+h2{
+	font-size: 200%;
+	font-family: 'Indie Flower', cursive;
+}
+
+.education {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+    url(../images/nyc.jpg) no-repeat fixed;
+    background-size: cover; 	  
+ 
+}
+/* footer styling */
+footer a{
+    color: #ffffff;
+}
+#contact{
+	 color: #ffffff;
+	text-align: center;
+    background: #2B2D42;
+    overflow: hidden;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+.contact-info .copyright{
+	width: 50%;
+	float: left;
+}
+.copyright{
+	width: 50%;
+	float: right;
+}

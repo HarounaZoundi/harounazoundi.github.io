@@ -1,0 +1,60 @@
+.content-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box{
+	width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.title{
+  color: #2C3E50;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) {
+  .box img{
+	  width: 250px;
+	}
+  .wrapper{
+      box-shadow: 10px 10px 20px 0px rgba(98,112,111,1);
+    }
+}
+@media screen and (min-width: 550px) {
+    
+  	.profile-pic, 
+    .profile-name, 
+    .Portfolio, 
+    .Portfolio-img{
+  		width: 50%;
+  	}
+  	.link a{
+  		font-size: 120%;
+  	}
+  	.udacity-img, 
+    .udacity-desc, 
+    .front-img, 
+    .front-desc{
+  		width: 50%;
+  	}
+  		.java-img, 
+      .java-desc, 
+      .bmcc-img, 
+      .bmcc-desc{
+  		width: 50%;
+  	}
+    .profile-name, 
+    .udacity-desc, 
+    .front-desc,
+    .portfolio, 
+    .java-desc, 
+    .bmcc-desc{
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: 900px){
+  	.content-wrap{
+  		width: 900Px;
+  		margin-left: auto;
+  		margin-right: auto;
+  	}
+  }
