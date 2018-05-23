@@ -1,10 +1,9 @@
 # My Portfolio website
-
-Thanks to [Udacity](https://www.udacity.com) and [Google](https://google.com)for [Scholarship](https://www.udacity.com/google-scholarships).
-
 ### Description
 
 This is a Portfolio Website built with html5, css and flexbox. It is responsively disigned. 
+
+Thanks to [Udacity](https://www.udacity.com) and [Google](https://google.com) for the [Scholarship](https://www.udacity.com/google-scholarships) (grow with google).
 
 ## link
 
