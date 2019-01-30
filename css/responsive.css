@@ -30,6 +30,8 @@
   	.link a{
   		font-size: 120%;
   	}
+     .brooklyn-img, 
+    .brooklyn-desc,
   	.udacity-img, 
     .udacity-desc, 
     .front-img, 
@@ -42,6 +44,7 @@
       .bmcc-desc{
   		width: 50%;
   	}
+    .brooklyn-desc,
     .profile-name, 
     .udacity-desc, 
     .front-desc,
