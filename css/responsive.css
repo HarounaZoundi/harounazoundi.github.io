@@ -10,7 +10,9 @@
   color: #2C3E50;
   text-decoration: underline;
 }
-
+.link a{
+  visibility: hidden;
+}
 @media screen and (min-width: 320px) {
   .box img{
 	  width: 250px;
@@ -20,7 +22,8 @@
     }
 }
 @media screen and (min-width: 550px) {
-    
+ 
+
   	.profile-pic, 
     .profile-name, 
     .Portfolio, 
@@ -55,6 +58,10 @@
     }
   }
   @media screen and (min-width: 900px){
+
+    .link a{
+  visibility: visible;
+}
   	.content-wrap{
   		width: 900Px;
   		margin-left: auto;
